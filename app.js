@@ -1,7 +1,7 @@
 const pincodeInput = document.getElementById('pincode');
 const postOfficeDropdown = document.getElementById('post-office');
 
-pincodeInput = addEventListener('click',()=>{
+pincodeInput = addEventListener('input',()=>{
     let pincode = pincodeInput.value;
     let error = document.getElementById('error');
 
